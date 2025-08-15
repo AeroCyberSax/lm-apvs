@@ -24,21 +24,27 @@ def nearest_aircraft_query(data, LOCKHEED_TYPES):
             if closest is None or dst < closest["dst"]:
                 closest = {
                     "t": t_value,
+                    "registration": aircraft.get("r", "N/A"),
+                    "owner": aircraft.get("ownOp", "N/A"),
                     "desc": aircraft.get("desc", "N/A"),
                     "callsign": aircraft.get("flight", "N/A"),
                     "lat": aircraft.get("lat"),
                     "lon": aircraft.get("lon"),
                     "dst": dst,
                     "alt_baro": aircraft.get("alt_baro", "N/A"),
+                    "groundspeed": aircraft.get("gs", "N/A")
                 }
 
     # Output closest aircraft info
     if closest:
-        print(f"Closest Lockheed Aircraft:"
+        print(f"Closest Lockheed Martin Aircraft:"
+              f"\n  Owner: {closest['owner']}"
               f"\n  Type: {closest['t']}"
               f"\n  Description: {closest['desc']}"
               f"\n  Callsign: {closest['callsign']}"
+              f"\n  Registration: {closest['registration']}"
               f"\n  Distance: {closest['dst']} NM"
-              f"\n  Barometric Altitude: {closest['alt_baro']} ft")
+              f"\n  Barometric Altitude: {closest['alt_baro']} ft"
+              f"\n  Groundspeed: {closest['groundspeed']} knots")
     else:
-        print("No Lockheed aircraft found nearby.")
+        print("No Lockheed Martin aircraft found nearby.")

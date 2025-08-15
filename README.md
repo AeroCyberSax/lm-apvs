@@ -1,7 +1,7 @@
-# lm-apvs
-The Lockheed Martin Aircraft Proximity Visualization System (LMAPVS) provides a means for filtering open-source ADS-B data to display the nearest Lockheed Martin aircraft.
+# Lockheed Martin Aircraft Proximity Visualization System (LMAPVS)
+The Lockheed Martin Aircraft Proximity Visualization System (LMAPVS) provides a means for filtering open-source ADS-B data to display the nearest Lockheed Martin aircraft to the user's detected location.
 
 ## Project Phases
 
-### Current -> Phase 1 - Open-Source API Parsing
-* Use an open-source ADS-B web API 
+### Phase 1 - Prototyping <- Currently Here
+* Use an open-source ADS-B web API ([adsb.fi](https://https://adsb.fi/)) to create a simple console app (MVP)

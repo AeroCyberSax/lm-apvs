@@ -1,9 +1,306 @@
 {
-    "C30J": "C-130J Hercules",
-    "C130H": "C-130H Hercules",
-    "F16": "F-16 Fighting Falcon",
-    "F22": "F-22 Raptor",
-    "F35": "F-35 Lightning II",
-    "C130J": "C-130J Hercules",
-    "C130": "C-130 Hercules"
+    "B26M": [
+        "MARTIN, 179 Marauder",
+        "MARTIN, Marauder",
+        "MARTIN, B-26 Marauder"
+    ],
+
+    "C5" : [
+        "LOCKHEED, Galaxy",
+        "LOCKHEED, L-500 Galaxy",
+        "LOCKHEED, C-5 Galaxy",
+        "LOCKHEED, C-5A/B Galaxy"
+    ],
+
+    "C5M": "LOCKHEED, C-5M Super Galaxy",
+
+    "C30J": [
+        "LOCKHEED MARTIN, KC-130J Hercules",
+        "LOCKHEED MARTIN, CC-130J Hercules",
+        "LOCKHEED MARTIN, EC-130J Hercules",
+        "LOCKHEED MARTIN, WC-130J Hercules",
+        "LOCKHEED MARTIN, Hercules (AE-2100 engines)",
+        "LOCKHEED MARTIN, C-130 J Hercules",
+        "LOCKHEED MARTIN, MC-130J Hercules",
+        "LOCKHEED MARTIN, HC-130J Hercules"
+    ],
+
+    "C130": [
+        "LOCKHEED, AC-130 Spectre",
+        "LOCKHEED, DC-130 Hercules",
+        "LOCKHEED, Sapeer",
+        "LOCKHEED, Aya",
+        "LOCKHEED, KC-130T Hercules",
+        "LOCKHEED, KC-130R Hercules",
+        "LOCKHEED, KC-130H Hercules",
+        "LOCKHEED, Spectre",
+        "LOCKHEED, HC-130 Hercules",
+        "LOCKHEED, Hercules (T-56 engines)",
+        "LOCKHEED, KC-130 Karnaf",
+        "LOCKHEED, EC-130 Aya",
+        "LOCKHEED, Karnaf",
+        "LOCKHEED, RC-130 Hercules",
+        "LOCKHEED, LC-130 Hercules",
+        "LOCKHEED, JC-130 Hercules",
+        "LOCKHEED, NC-130 Hercules",
+        "LOCKHEED, EC-130 Sapeer",
+        "LOCKHEED, EC-130E Hercules",
+        "LOCKHEED, KC-130F Hercules",
+        "LOCKHEED, C-130H Hercules",
+        "LOCKHEED, C-130F Hercules",
+        "LOCKHEED, TC-130 Hercules",
+        "LOCKHEED, Tp84 Hercules",
+        "LOCKHEED, C-130E Hercules",
+        "LOCKHEED, VC-130 Hercules",
+        "LOCKHEED, WC-130E Hercules",
+        "LOCKHEED, L-182 Hercules",
+        "LOCKHEED, C-130B Hercules",
+        "LOCKHEED, WC-130H Hercules",
+        "LOCKHEED, C-130A Hercules",
+        "LOCKHEED, C-130 Karnaf",
+        "LOCKHEED, L-100 Hercules",
+        "LOCKHEED, C-130K Hercules",
+        "LOCKHEED, L-382 Hercules",
+        "LOCKHEED, MC-130 Hercules",
+        "LOCKHEED, EC-130Q Hercules",
+        "LOCKHEED, EC-130H Hercules",
+        "LOCKHEED, CC-130 Hercules",
+        "LOCKHEED, L-282 Hercules",
+        "LOCKHEED, EC-130G Hercules",
+        "LOCKHEED MARTIN, L-382 Hercules",
+        "LOCKHEED MARTIN, Hercules (T-56 engines)",
+        "LOCKHEED MARTIN, LC-130 Hercules",
+        "LOCKHEED MARTIN, C-130H Hercules",
+        "LOCKHEED MARTIN, L-100 Hercules",
+        "ROCKWELL, AC-130 Spectre",
+        "ROCKWELL, Spectre"
+    ],
+
+    "C141": [
+        "LOCKHEED, L-300 Starlifter",
+        "LOCKHEED, Starlifter",
+        "LOCKHEED, C-141 Starlifter"
+    ],
+
+    "CONI": [
+        "LOCKHEED, Super Constellation",
+        "LOCKHEED, Warning Star",
+        "LOCKHEED, WV Warning Star",
+        "LOCKHEED, L-749 Constellation",
+        "LOCKHEED, L-1049 Super Constellation",
+        "LOCKHEED, VC-121 Constellation",
+        "LOCKHEED, L-049 Constellation",
+        "LOCKHEED, EC-121 Constellation",
+        "LOCKHEED, C-121 Constellation",
+        "LOCKHEED, RC-121 Constellation",
+        "LOCKHEED, R7V Constellation",
+        "LOCKHEED, Constellation"
+    ],
+
+    "F16": [
+        "LOCKHEED, F-16 Fighting Falcon",
+        "LOCKHEED, Fighting Falcon",
+        "LOCKHEED MARTIN, F-16 Fighting Falcon",
+        "LOCKHEED MARTIN, F-16 Sufa",
+        "LOCKHEED MARTIN, Sufa",
+        "LOCKHEED MARTIN, Fighting Falcon",
+        "LOCKHEED MARTIN, F-16 Desert Falcon",
+        "LOCKHEED MARTIN, Desert Falcon"
+    ],
+
+    "F22": [
+        "LOCKHEED MARTIN, F-22 Raptor",
+        "LOCKHEED MARTIN, Raptor",
+        "LOCKHEED MARTIN, L-645 Raptor"
+    ],
+
+    "F35": [
+        "LOCKHEED MARTIN, F-35A Lightning II",
+        "LOCKHEED MARTIN, Lightning II (F-35A/C)",
+        "LOCKHEED MARTIN, F-35C Lightning II"
+    ],
+
+    "F104": [
+        "LOCKHEED, TF-104 Starfighter",
+        "LOCKHEED, RF-104 Starfighter",
+        "LOCKHEED, L-683 Starfighter",
+        "LOCKHEED, L-583 Starfighter",
+        "LOCKHEED, F-104 Starfighter",
+        "LOCKHEED, Starfighter"
+    ],
+
+    "F117": [
+        "LOCKHEED, Nighthawk",
+        "LOCKHEED, F-117 Nighthawk",
+        "LOCKHEED, YF-117 Nighthawk"
+    ],
+
+    "L10": [
+        "LOCKHEED, XR2O Electra",
+        "LOCKHEED, Electra (L-10)",
+        "LOCKHEED, L-10 Electra"
+    ],
+
+    "L12": [
+        "LOCKHEED, L-12 Electra Junior",
+        "LOCKHEED, JO Electra Junior",
+        "LOCKHEED, Electra Junior",
+        "LOCKHEED, C-40 Electra Junior"
+    ],
+
+    "L14": [
+        "LOCKHEED, L-14 Hudson",
+        "LOCKHEED, Super Electra",
+        "LOCKHEED, HUDSON",
+        "LOCKHEED, L-14 Super Electra"
+    ],
+
+    "L18": [
+        "LOCKHEED, C-59 Lodestar",
+        "LOCKHEED, L-18 Lodestar",
+        "LOCKHEED, R5O Lodestar",
+        "LOCKHEED, Lodestar",
+        "LOCKHEED, C-60 Lodestar",
+        "LOCKHEED, C-56 Lodestar",
+        "LOCKHEED, XR5O Lodestar",
+        "LOCKHEED, C-57 Lodestar"
+    ],
+
+    "L29A": [
+        "LOCKHEED, Jetstar 8",
+        "LOCKHEED, Jetstar 6",
+        "LOCKHEED, L-1329 Jetstar 8",
+        "LOCKHEED, L-1329 Jetstar 6"
+    ],
+
+    "L29B": [
+        "LOCKHEED, Jetstar 731",
+        "LOCKHEED, L-1329 Jetstar 2",
+        "LOCKHEED, L-1329 Jetstar 731",
+        "LOCKHEED, Jetstar 2"
+    ],
+
+    "L37": [
+        "LOCKHEED, PV-1 Ventura",
+        "LOCKHEED, PV-2 Harpoon",
+        "LOCKHEED, Ventura",
+        "LOCKHEED, L-237 Ventura",
+        "LOCKHEED, L-15 Harpoon",
+        "LOCKHEED, Harpoon",
+        "LOCKHEED, L-137 Ventura",
+        "LOCKHEED, B-34 Lexington"
+    ],
+
+    "L101": [
+        "LOCKHEED, L-1011 TriStar",
+        "LOCKHEED, TriStar"
+    ],
+
+    "L188": [
+        "LOCKHEED, Electra (L-188)",
+        "LOCKHEED, L-188 Electra"
+    ],
+
+    "LA60": [
+        "LOCKHEED, LASA-60",
+        "LOCKHEED-AZCARATE, LASA-60 Santa Maria",
+        "LOCKHEED-AZCARATE, Santa Maria"
+    ],
+
+    "L382": [
+        "LOCKHEED, L-382 Hercules",
+        "LOCKHEED, L-382 Hercules (T-56 engines)",
+        "LOCKHEED MARTIN, L-382 Hercules"
+    ],
+
+    "M404": "MARTIN, 404",
+
+    "MARS": [
+        "MARTIN, 170 Mars",
+        "MARTIN, JRM Mars",
+        "MARTIN, Mars"
+    ],
+
+    "O3": "LOCKHEED, YO-3",
+
+    "P2": [
+        "LOCKHEED, L-726 Neptune",
+        "LOCKHEED, L-826 Neptune",
+        "LOCKHEED, P2V Neptune",
+        "LOCKHEED, L-426 Neptune",
+        "LOCKHEED, Neptune",
+        "LOCKHEED, P-2 Neptune",
+        "LOCKHEED, SP-2 Neptune"
+    ],
+
+    "P3": [
+        "LOCKHEED, L-685 Orion",
+        "LOCKHEED, UP-3 Orion",
+        "LOCKHEED, L-785 Orion",
+        "LOCKHEED, L-185 Orion",
+        "LOCKHEED, VP-3 Orion",
+        "LOCKHEED, EP-3 Orion",
+        "LOCKHEED, Arcturus",
+        "LOCKHEED, L-285 Orion",
+        "LOCKHEED, TP-3 Orion",
+        "LOCKHEED, AP-3 Orion",
+        "LOCKHEED, Aurora",
+        "LOCKHEED, RP-3 Orion",
+        "LOCKHEED, Orion",
+        "LOCKHEED, NP-3 Orion",
+        "LOCKHEED, CP-140 Arcturus",
+        "LOCKHEED MARTIN, P-3 Orion",
+        "LOCKHEED MARTIN, Orion",
+        "LOCKHEED MARTIN, L-285 Orion"
+    ],
+
+    "P38": [
+        "LOCKHEED, F-5 Lightning",
+        "LOCKHEED, L-222 Lightning",
+        "LOCKHEED, L-322 Lightning",
+        "LOCKHEED, Lightning",
+        "LOCKHEED, P-38 Lightning",
+        "LOCKHEED, L-422 Lightning"
+    ],
+
+    "S3": [
+        "LOCKHEED, S-3 Viking",
+        "LOCKHEED, Viking",
+        "LOCKHEED, US-3 Viking",
+        "LOCKHEED, L-394 Viking",
+        "LOCKHEED, ES-3 Viking"
+    ],
+
+    "SR71": [
+        "LOCKHEED, Blackbird",
+        "LOCKHEED, SR-71 Blackbird"
+    ],
+
+    "T33": [
+        "LOCKHEED, NT-33",
+        "LOCKHEED, L-580 Shooting Star",
+        "LOCKHEED, L-580 T-Bird",
+        "LOCKHEED, RT-33",
+        "LOCKHEED, Shooting Star",
+        "LOCKHEED, T-33 Shooting Star",
+        "LOCKHEED, T-33 T-Bird",
+        "LOCKHEED, AT-33"
+    ],
+
+    "U2": [
+        "LOCKHEED, ER-2",
+        "LOCKHEED, U-2"
+    ],
+
+    "VF35": [
+        "LOCKHEED MARTIN, Lightning II (F-35B)",
+        "LOCKHEED MARTIN, F-35B Lightning II"
+    ],
+
+    "WB57": [
+        "MARTIN, 272",
+        "MARTIN, WB-57"
+    ],
+
+    "X55": "LOCKHEED MARTIN, X-55"
 }
